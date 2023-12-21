@@ -1,0 +1,187 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tæknibúðin</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/grid.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100" >
+
+    <div class="container mx-auto mt-8 p-6 bg-white shadow-lg">
+        <header class="flex flex-col md:flex-row justify-between items-center border-b pb-4">
+            <a href="/index.html" class="text-3xl font-bold mb-2 md:mb-0">⚙︎ Tæknibúðin</a>
+            <div class="flex justify-center items-center mb-2 md:mb-0">
+                <form action="/search" method="get" class="border-2">
+                    <input type="text" name="q" placeholder="Leit eftir Heiti, vörunúmeri, lýsingu o.fl." class="w-full md:w-64 p-2 md:p-0 md:pl-4 bg-transparent border-none" />
+                </form>
+            </div>
+            <nav class="mb-4 md:mb-0">
+                <ul class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
+                    <li><a class="text-gray-600 hover:text-black">Nýtt</a></li>
+                    <li><a class="text-gray-600 hover:text-black">Tilboð vikunnar</a></li>
+                    <li><a class="text-gray-600 hover:text-black">Vinsælustu vörur</a></li>
+                    <li><a class="text-gray-600 hover:text-black">Allar vörur</a></li>
+                    <li>
+                        <a href="/sidur/pöntunarsiða.html" class="text-gray-600">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="mt-6">
+            <style>
+                .product-container {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    grid-gap: 1rem;
+                }
+                .product-container img {
+                    width: 100%;
+                    height: 400px;
+                    margin-top: 2rem;
+                }
+               
+                @media (max-width: 600px) {
+                    .product-container {
+                        grid-template-columns: 1fr;
+                    }
+                }
+            </style>
+            
+            <div class="mt-6 product-container">
+                <img src="/Myndir/motherboard.jpeg" class="product-image">
+                <div>
+                    <p class="text-gray-700 mt-4" style="line-height: 1.2;">
+                        Afslápplega gott, tæknilegt, og traust móðurborð. Passar vel í allar gerðir tölvu sem taka við tæknilegum móðurborðum. Nánar borðiðs tælls tælls, upplætur pellentesque mi tempus non. Nunc luctus ac ligula id fringilla. Aliquam id lacus id ipsum condimentum malesuada et ante. Nullam vitae nisl a pharetra. Duis id dolor suscipit, pellentesque nunc. Suspendisse potenti. Nunc eget ante id nulla malesuada consectetur. Donec sapien ac risus luctus porta nec sed ante. Nám quis ex quis dolor auctor vehicula.
+                    </p>
+                    
+                    <div class="flex justify-between items-center">
+                        <p class="text-gray-900 text-xl font-bold mt-4">189.000 kr.</p>
+                        <button style="background-color: antiquewhite; color: rgb(54, 54, 58); border: none; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 12px;">Setja í körfu</button>
+                    </div> 
+                </div>
+            </div>
+            
+            
+                  
+                </div>
+            </div>
+        </div>
+        </div>
+        
+      
+        
+        
+        
+
+        <style>
+            .custom-left-align {
+              text-align: left;
+              margin: auto; /* Optional: Center horizontally if needed */
+              max-width: 600px; /* Adjust the max-width as needed */
+            }
+          </style>
+            <div class="mb-6"></div> 
+          <div class="mt-8 custom-left-align">
+            <h3 class="font-bold" style="font-size: 30px;">Eiginleikar</h3>
+            <dl class="mt-4">
+              <dt class="font-bold" style="font-size: 20px;">Kubbasett</dt>
+              <dd class="mb-4">A1234 kubbasett fyrir móðurborð sem lectus dolor, consequat eget sodales id, vestibulum ut leo. Fusce tincidunt quam sit amet justo pretium sagittis. Nullam hendrerit eros nec tristique volutpat. Integer consectetur dictum erat, ac pretium tellus lacinia ac.</dd>
+          
+              <dt class="font-bold" style="font-size: 20px;">Stærð</dt>
+              <dd class="mb-4">123x4567.</dd>
+          
+              <dt class="font-bold"style="font-size: 20px;">Stýringar</dt>
+              <dd>Mjög góðar móðurborðslegar stýringar. Praesent mauris nulla, pretium sit amet tempor vel, ullamcorper at lectus. Cras vel fermentum dui, vel tincidunt sapien. Nullam dignissim magna nec lacus pellentesque interdum id in ante. Sed dapibus dolor vitae purus porttitor pellentesque. Nunc eget nibh eros. Donec cursus fermentum accumsan. Phasellus nec dictum tellus. Nulla vulputate, felis nec egestas pretium, libero sapien rutrum dui.</dd>
+            </dl>
+          </div>
+          
+        
+    
+   
+        <div class="mb-6"></div> 
+        
+        <div class="container mx-auto px-6 py-8" style="background-color: antiquewhite;">
+        <div><h3 class=" font-bold " style="font-size: 20px;">Tengdar vörur</h3></p></div>
+        <section class="bg-white py-8"  style="background-color: antiquewhite;">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-2xl font-semibold text-gray-900 mb-6">Nokkur dæmi úr úrvali vöruvála okkar</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <!-- vara 2 -->
+                    
+                    <div class="bg-white p-4 rounded-lg shadow-md">
+                        <img src="/Myndir/OIG.jpeg" class="mb-4">
+                        <h3 class="text-lg font-semibold mb-2">Vinaelgur vinnurobot</h3>
+                        <button class="px-2 py-1 mr-2" style="background-color: antiquewhite; color: rgb(54, 54, 58); border: none; border-radius: 4px;">Nýtt</button>
+                        <button class="px-2 py-1" style="background-color: antiquewhite; color: rgb(54, 54, 58); border: none; border-radius: 4px;">Ekki fyrir börn</button>
+                        <p class="text-lg text-gray-900 mb-4">1.499.990 kr.</p>
+                        <div class="w-full">
+                            <a href="sidur/vara.html" class="block w-full text-center" style="background-color: antiquewhite; color: rgb(54, 54, 58); border: none; border-radius: 4px; padding: 10px 0;">
+                                SETJA Í KÖRFU
+                            </a>
+                        </div>                    </div>
+
+                    <div class="bg-white p-4 rounded-lg shadow-md">
+                        <img src="/Myndir/matrix.jpeg" class="mb-4">
+                        <h3 class="text-lg font-semibold mb-2">Matrixið</h3>
+                        <button class="px-2 py-1 mr-2" style="background-color: antiquewhite; color: rgb(54, 54, 58)e; border: none; border-radius: 4px;">Nýtt</button>
+                        <button class="px-2 py-1" style="background-color: antiquewhite; color: rgb(54, 54, 58); border: none; border-radius: 4px;">Ekki fyrir börn</button>
+                        <p class="text-lg text-gray-900 mb-4">299.999.999.999 kr.</p>
+                        <div class="w-full">
+                            <a href="sidur/vara.html" class="block w-full text-center" style="background-color: antiquewhite; color: rgb(54, 54, 58); border: none; border-radius: 4px; padding: 10px 0;">
+                                SETJA Í KÖRFU
+                            </a>
+                        </div>                    </div>
+                                       </div>
+                </div>
+            </div>
+        </section>
+           
+           
+         
+        </div>
+  
+       
+        
+    </div> <footer class="footer">
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-sm font-semibold uppercase tracking-wider border-b pb-2">Opnunartími</h3>
+                    <p class="mt-4 text-sm">Mán - Fös: 09:00 - 18:00</p>
+                    <p class="mt-1 text-sm">Laugardaga: 10:00 - 14:00</p>
+                    <p class="mt-1 text-sm">Lokað á sunnudögum</p>
+                </div>
+                <div>
+                    <h3 class="text-sm font-semibold uppercase tracking-wider border-b pb-2">Hafðu Samband</h3>
+                    <p class="mt-4 text-sm">Sími: 555-0100</p>
+                    <p class="mt-1 text-sm">Netfang: info@taeknithjonustan.is</p>
+                </div>
+                <div>
+                    <h3 class="text-sm font-semibold uppercase tracking-wider border-b pb-2">Annað</h3>
+                    <p class="mt-4 text-sm">Rekja sendingu</p>
+                    <p class="mt-1 text-sm">Skilaréttur</p>
+                    <p class="mt-4 text-sm">Um okkur</p>
+                    <p class="mt-1 text-sm">Störf</p>
+                </div>
+                
+            </div>
+        </div><footer id="copyright" style="text-align: center;">
+        <p>© 2021 TÆKNIBÚÐIN - Allur réttur áskilinn</p>
+    </footer>
+    </footer>
+  </body>  
+        
+
+</html>
